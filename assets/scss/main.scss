@@ -1,11 +1,11 @@
+@import 'global/header.scss';
+@import 'global/footer.scss';
+
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
-
-@import 'global/header.scss';
-@import 'global/footer.scss';
 
 body {
 	background: url(../img/textura_bg.jpg);
