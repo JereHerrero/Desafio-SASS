@@ -1,5 +1,6 @@
 @import 'global/header.scss';
 @import 'global/footer.scss';
+@import 'misc/variables.scss';
 
 * {
 	margin: 0px;
@@ -12,14 +13,14 @@ body {
 }
 
 a {
-	color: white;
+	color: $blanco;
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 	font-weight: 400;
 	text-align: center;
 }
 h1 {
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 1px $negro;
 	color: white;
 }
 h2 {
@@ -69,7 +70,7 @@ p {
 		line-height: 1.2;
 	}
 	span {
-		color: #b39975;
+		color: $beige;
 	}
 }
 .home_info {
